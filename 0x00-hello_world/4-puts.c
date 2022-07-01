@@ -1,15 +1,27 @@
-/*
- * file:4-puts.c
- * author: Obanlan Adeniyi
- */
 #include <stdio.h>
-/*
- * main - Prints "Programming is like building a multilingual puzzle"
- *
- * Return: Always 0 (sucess)
- */
- * int main(void)
- {
- 	puts("\"progr amming is like building a multilingual puzzle");
- 	return (0);
- }
+
+
+
+ /**
+
+    * main - Prints "Programming is like building a multilingual
+
+     *                puzzle, followed by a new line.
+
+      *
+
+       * Return: Always 0.
+
+        */
+
+ int main(void)
+
+{
+
+        puts("\"Programming is like building a multilingual puzzle");
+
+
+
+            return (0);
+
+}
