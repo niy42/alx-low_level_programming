@@ -1,12 +1,16 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
 
 /* 0-positive_or_negative.c */
 
+#include <stdio.h>
 
-
-/* detects and prints the value of a random number */
+/**
+ * main - Entry point
+ * Author: Obanla Adeniyi
+ * Description: 'detects and prints the value of a random number'
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
