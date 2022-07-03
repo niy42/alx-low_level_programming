@@ -10,7 +10,7 @@
 /**
  * main - Entry point
  * Author: Obanla Adeniyi
- * Description: 'a program that prints the alphabet in lowercase e and q'
+ * Description: 'prints the alphabet in lowercase except e and q'
  * Return: Always 0 (Success)
  */
 
