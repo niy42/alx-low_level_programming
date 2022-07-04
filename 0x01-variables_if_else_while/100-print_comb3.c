@@ -13,20 +13,24 @@
 
 int main(void)
 {
-	int digit1, digit2;
+	int i;
+	int j;
 
-	for (digit1 = 0; digit1 < 10; digit1++)
-	for (digit2 = 0; digit2 < 10; digit2++)
+	for (i = 48; i < 57; i++)
 	{
-	putchar((digit1 % 10) + '0');
-	putchar((digit2 % 10) + '0');
+		for (j = i + 1; j < 58; j++)
+		{
+			putchar(i);
+			putchar(j);
 
-	if (digit1 == 9 && digit2 == 9)	
-	continue;
-	putchar(',');
-	putchar(' ');
+			if (i != 56 || j != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+
+		}
+
 	}
-	putchar('\n');
-
 	return (0);
 }
