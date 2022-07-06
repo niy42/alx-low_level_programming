@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	void print_alphabet();
+	print_alphabet();
 
 	return (0);
 }
@@ -22,14 +22,14 @@ int main(void)
 *print_alphabet - stores alphabets in lowercase
 */
 
-void print_alphabet(void)
+void print_alphabet()
 {
 	{
-	char n = 'a';
-	char x = 'z';
+	#define letter ('a'; 'z')
+	char letter;
 
-	while (x <= 'z')
-	putchar(n++);
+	for(letter = 'a'; letter <= 'z'; letter++)
+	putchar(letter);
 	putchar('\n');
 	}
 }
