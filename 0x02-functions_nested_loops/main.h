@@ -1,4 +1,7 @@
 #include <stdio.h>
 
-// protoype
+/**
+ * protoype
+ */
+
 void print_alphabet(void);
