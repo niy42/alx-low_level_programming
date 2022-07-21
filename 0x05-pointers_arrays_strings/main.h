@@ -12,5 +12,6 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 void print_rev(char *s);
+char *_memset(char *s, char b, unsigned int n);
 
 #endif

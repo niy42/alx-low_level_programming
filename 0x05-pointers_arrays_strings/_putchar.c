@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include "main.h"
 /**
 *_puts - prints to stdout
 *@c: value to be printed
