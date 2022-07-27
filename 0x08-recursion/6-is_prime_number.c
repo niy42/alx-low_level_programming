@@ -1,11 +1,4 @@
 #include "main.h"
-/**
-*is_prime_number - returns an integer as a prime number
-*@n: argument to be passed
-*
-*Return: 1 if prime number is an integer.
-*/
-
 int is_divisible(int num, int div);
 int is_prime_number(int n);
 /**
@@ -34,6 +27,7 @@ int is_divisible(int num, int div)
 int is_prime_number(int n)
 {
 	int div = 2;
+
 	if (n <= 1)
 		return (0);
 	if (n >= 2 && n <= 3)
