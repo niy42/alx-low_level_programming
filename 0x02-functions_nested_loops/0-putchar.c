@@ -4,6 +4,11 @@
  *
  * Return: nothing
  */
+int main(void)
+{
+	printputchar();
+	return (0);
+}
 void printputchar(void)
 {
 	_putchar('_');
