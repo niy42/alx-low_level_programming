@@ -1,14 +1,19 @@
 #include "main.h"
 /**
- * printputchar - prints "_putchar"
+ * main - calls void function
  *
- * Return: nothing
+ * Return: Always 0.
  */
 int main(void)
 {
 	printputchar();
 	return (0);
 }
+/**
+ * printputchar - prints _putchar
+ *
+ * Return: nothing
+ */
 void printputchar(void)
 {
 	_putchar('_');
