@@ -12,4 +12,5 @@ void puts_half(char *str);
 char *_strcpy(char *dest, char *src);
 int _putchar(char c);
 void puts2(char *);
+void puts_half(char*);
 #endif
