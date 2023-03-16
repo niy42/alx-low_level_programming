@@ -1,3 +1,2 @@
-#a script that runs a Cfile through a preprocessor and saves it in another file
-#!/bin/bash
+#!/bin/bash 
 gcc -E $CFILE -o c
