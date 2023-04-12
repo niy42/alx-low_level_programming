@@ -11,7 +11,10 @@ void print_array(int *a, int num)
 	i = 0;
 	while (i < num)
 	{
-		printf("%d, ", *(a + i++));
+		printf("%d", *(a + i++));
+		if (i == num - 1)
+			break;
+		putchar(',');
 	}
 	putchar('\n');
 }
