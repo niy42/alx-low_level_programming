@@ -11,8 +11,7 @@ void print_array(int *a, int num)
 	i = 0;
 	while (i < num)
 	{
-		printf("%d", *(a + i++));
-		printf(", ");
+		printf("%d, ", *(a + i++));
 	}
 	putchar('\n');
 }
