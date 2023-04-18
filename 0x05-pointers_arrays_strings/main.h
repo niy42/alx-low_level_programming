@@ -13,5 +13,6 @@ void puts_half(char *str);
 char *_strcpy(char *dest, char *src);
 int _putchar(char c);
 void puts2(char *);
+int _atoi(char *s);
 void puts_half(char*);
 #endif
