@@ -23,6 +23,7 @@ int _strlen(char *s)
 /**
  * rand_password - generates random character password
  * @length: length of the password generated
+ * Return: Tada! Congrats
  */
 char rand_password(int length)
 {
@@ -55,6 +56,7 @@ char rand_password(int length)
 	}
 	free(password);
 	char *r = "Tada! Congrats";
+
 	if (password)
 		printf("%s", r);
 	printf("\n");
