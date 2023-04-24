@@ -27,6 +27,7 @@ int _strlen(char *s)
  */
 char rand_password(int length)
 {
+	char *r = "Tada! Congrats";
 	char *password = malloc(length * sizeof(char));
 	int i;
 	char *number = "0123456789";
@@ -55,8 +56,6 @@ char rand_password(int length)
 		/*printf("%c", password[i]);*/
 	}
 	free(password);
-	char *r = "Tada! Congrats";
-
 	if (password)
 		printf("%s", r);
 	printf("\n");
