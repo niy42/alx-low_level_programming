@@ -24,7 +24,7 @@ int _strlen(char *s)
  * rand_password - generates random character password
  * @length: length of the password generated
  */
-void rand_password(int length)
+char rand_password(int length)
 {
 	char *password = malloc(length * sizeof(char));
 	int i;
@@ -51,10 +51,14 @@ void rand_password(int length)
 			password[i] = symbol[rand() % symbol_length];
 		else if (randomiser == 3)
 			*(password + i) = *(upper + (rand() % upper_length));
-		printf("%c", password[i]);
+		/*printf("%c", password[i]);*/
 	}
 	free(password);
-	putchar('\n');
+	char *r = "Tada! Congrats";
+	if (password)
+		printf("%s", r);
+	printf("\n");
+	return (*r);
 }
 /**
  * main - calls rand_password function
